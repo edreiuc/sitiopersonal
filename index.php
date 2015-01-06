@@ -19,7 +19,6 @@
 							<ul class="nav nav-pills nav-justified">
 						  		<li><a href="index.php">INICIO</a></li>
 						  		<li><a href="#">PORTAFOLIO</a></li>
-						  		<li><a href="aniversario.php">SORPRESA</a></li>
 						  		<li><a href="contact.php">CONTACTO</a></li>
 						  	</ul>
 						</div>
