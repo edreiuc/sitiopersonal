@@ -1,0 +1,85 @@
+#backgr{
+	background: white url(../img/congruent_pentagon.png);
+    background-repeat: repeat;
+}
+
+.naveg{
+	background-color: rgba(255, 255, 255, 0.9);
+	height: 100%;
+}
+
+.feet{
+	background: #4679BD;
+}
+
+.circle {
+    width: 100%;
+    height:0;
+    padding-bottom: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #4679BD;
+}
+
+.circle-text {
+    width:100%;
+}
+.circle-text:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: #4679BD;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.circle-text div {
+	font-family: 'Hammersmith One', sans-serif;
+    float:left;
+    width:100%;
+    padding-top:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:white;
+}
+
+.circle-text:hover:after{
+	background-color: #0C7B8F;
+}
+
+.red ul {
+	list-style-type: none;
+}
+
+.red ul li{
+	display: inline;
+	padding-right: 10px;
+	color: #FFFFFF;
+}
+
+.biograf p{
+	font-size: 14px;
+}
+
+.biograf h4{
+	color: #4679BD;tu
+}
+
+.name h1{
+	font-family: 'Play', sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.name h4{
+	font-family: 'Cabin', sans-serif;
+	font-style: italic;
+}
+
+.titulos h2, h5{
+    font-family: 'Pacifico', cursive;    
+}
