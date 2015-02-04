@@ -83,3 +83,9 @@
 .titulos h2, h5{
     font-family: 'Pacifico', cursive;    
 }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
