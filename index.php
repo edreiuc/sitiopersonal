@@ -1,6 +1,8 @@
 <?php
 include 'header.php';
 ?>
+
+<!-- contenido -->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6" style="padding-top: 6%">
