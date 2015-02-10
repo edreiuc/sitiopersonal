@@ -4,19 +4,61 @@ include 'header.php';
 
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6" style="padding-top: 6%">
-					<div class="center-block"><img src="img/2.jpg" alt="yo" class="img-circle img-responsive"></div>
+				<div class="col-md-6 col-sm-12 col-xs-12 topimg">
+					<div class="center-block"><img src="img/2.jpg" alt="yo" class="imgcenter img-circle img-responsive"></div>
 				</div>
-				<div class="col-md-6" style="padding-top: 6%">
+				<div class="col-md-6 col-sm-12 col-xs-12 topjumb">
 					<div class="jumbotron">
-					  <h1>Hola,</h1>
-					  <p>Algo Sobre mi:</p>
+					  <h1 class="spaceh1">Hola,</h1>
+					  <h2>Algo Sobre mi:</h2>
 						<div class="row" style="padding-bottom:3%;">
-							<div class="col-xs-6 col-sm-4"><a href="#"><div class="circle-text"><div>GRAFICOS</div></div></a></div>
-							<div class="col-xs-6 col-sm-4"><a href=""><div class="circle-text"><div>HOBBIES</div></div></a></div>
-							<div class="clearfix visible-xs-block"></div>
-							<div class="col-xs-6 col-sm-4"><a href=""><div class="circle-text"><div>TEST</div></div></a></div>
-					 	</div>
+							<div id="ecrans">
+								<div class="col-md-4 col-xs-4">
+									<a href="#">
+										<div class="circle-text">
+											<div>
+												<p><i class="glyphicon glyphicon-link itemf"></i>
+												Aportaciones</p>
+											</div>
+										</div>
+									</a>
+								</div>
+
+								<div class="col-md-4 col-xs-4">
+									<a href="">
+										<div class="circle-text">
+											<div>
+												<p><i class="glyphicon glyphicon-camera itemf"></i>
+												Fotografía</p>
+											</div>
+										</div>
+									</a>
+								</div>
+
+								<div class="col-md-4 col-xs-4">
+									<a href="">
+										<div class="circle-text">
+											<div>
+												<p><i class="glyphicon glyphicon-folder-open itemf"></i>
+												Ejemplos</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div> <!-- ecrans -->
+
+							<div id="mobiles"> 
+								<div class="col-xs-12">
+									<h3 class="itemh">Aportaciones</h3>
+								</div>
+								<div class="col-xs-12">
+									<h3 class="itemh">Aportaciones</h3>
+								</div>
+								<div class="col-xs-12">
+									<h3 class="itemh">Aportaciones</h3>
+								</div>
+							</div>
+					 	</div> <!-- mobiles -->
 					  
 						<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
 						  Leer más
