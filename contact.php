@@ -1,7 +1,7 @@
 <?php
 include 'header.php';
 ?>
-<!-- CONTENIDO -->
+<!-- CONTENIDO de contacto -->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6" style="padding-top: 2%">
