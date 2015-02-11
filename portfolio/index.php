@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-<?php
-	if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
-		$uri = 'https://';
-	} else {
-		$uri = 'http://';
-	}
-	$uri .= $_SERVER['HTTP_HOST'];
-	header('Location: '.$uri.'/xampp/');
-	exit;
-?>
-Something is wrong with the XAMPP installation :-(
-=======
 <?php
 include 'header.php';
 ?>
@@ -125,4 +112,3 @@ include 'header.php';
 <?php
 include 'footer.php';
 ?>
->>>>>>> b2fb14dd36468f2f7b146a9b5bb95a8252c75ada
