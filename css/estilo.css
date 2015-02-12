@@ -137,6 +137,16 @@
     .glyphicon {top:-14px;}  
 }
 
+@media (min-width: 1024px) {
+    #ecrans { display: block; } 
+    #mobiles { display: none; }
+    .jumbotron h1, .jumbotron .h1 {font-size: 50px;}
+    .glyphicon {top:-14px;} 
+    .itemf {font-size: 27px;}
+    .jumbotron p { font-size:8.5px;} 
+    .topjumb{padding-top: 10%;}
+}
+
 @media (min-width: 1280px) {
     #ecrans { display: block; } 
     #mobiles { display: none; }
