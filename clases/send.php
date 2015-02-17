@@ -27,7 +27,7 @@ $transport = Swift_SmtpTransport::newInstance('mx1.hostinger.mx', 2525)
 
 $mailer = Swift_Mailer::newInstance($transport);
 
-$message = Swift_Message::newInstance('SITIO-EDREIUC '.$object)
+$message = Swift_Message::newInstance('SITIO-EDREIUC: '.$object)
   ->setFrom(array($email => $nombre))
   ->setTo(array($to,'sam_edreiuc@edreiuc.esy.es'))
   ->setBody($email_content);
