@@ -192,9 +192,10 @@
     .jumbotron h1, .jumbotron .h1 {font-size: 50px;}
     .glyphicon {top:-14px;}
     .topdiv{padding-bottom: 0%; padding-top: 14.4%;}
-    .itemf {font-size: 25px;}
+    .itemf {font-size: 58px;}
     .glyphicon {line-height: 0;position: static;}
-    .jumbotron p { font-size:6.5px;}    
+    .jumbotron p { font-size:16.5px;}
+    .topjumb {padding-top: 0%; padding-bottom: 8%}    
 }
 
 @media (min-width: 980px) {

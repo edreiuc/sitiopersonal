@@ -4,10 +4,10 @@ include 'header.php';
 		<div class="col-md-12 topdiv">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6 col-sm-5 col-xs-12 topimg">
+					<div class="col-md-6 col-sm-12 col-xs-12 topimg">
 						<div class="center-block"><img src="img/2.jpg" alt="yo" class="imgcenter img-circle img-responsive"></div>
 					</div>
-					<div class="col-md-6 col-sm-7 col-xs-12 topjumb">
+					<div class="col-md-6 col-sm-12 col-xs-12 topjumb">
 						<div class="jumbotron">
 						  <h1 >Bienvenido,</h1>
 						  <h2>Algunas referencias profesionales</h2>
