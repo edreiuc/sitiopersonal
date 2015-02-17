@@ -18,17 +18,17 @@ include 'header.php';
 								<div class="row">
 									<div class="col-md-6">
 										<label>Nombre:</label>
-										<input type="text" name="name" id="name" class="form-control">
+										<input type="text" name="name" id="name" class="form-control" required>
 									</div>
 									<div class="col-md-6">
 										<label>E-mail:</label>
-										<input type="text" name="email" id="email" class="form-control">
+										<input type="email" name="email" id="email" class="form-control" required>
 									</div>
 								</div>
 								<label>Asunto:</label>
-								<input type="text" name="asunto" id="asunto" class="form-control">
+								<input type="text" name="asunto" id="asunto" class="form-control" required>
 								<label>Mensaje:</label>
-								<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-control"></textarea>
+								<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-control" placeholder=" sorry, disabled form, details to do" required></textarea>
 								<input type="submit" class="btn btn-info" value="Enviar">
 								<div id="respuesta" style="display: none;"></div>
 							</form>
