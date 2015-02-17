@@ -10,10 +10,10 @@
 							<li><a href="https://plus.google.com/u/1/114768744197542536884/posts" target="_blank"><img src="img/redes/google.png" alt="googleplus"></a></li>
 						</ul>
 					</div>
-					<div class="col-md-12 redes">
-						<ul>
-							<li><p>&copy; Samuel Edrei Uc Angulo</p></li>
-						</ul>
+					<div class="col-md-12 redes textfoot">
+						
+							<p>&copy; Samuel Edrei Uc Angulo</p>
+						
 					</div>
 				</div>
 			</div>
