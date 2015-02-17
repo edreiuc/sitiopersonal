@@ -14,6 +14,7 @@ include 'header.php';
 					<div class="jumbotron">
 						<h2>Contactame</h2>
 							<form method="POST" name="fcontacto" id="fcontacto" action="clases/send.php">
+
 								<div class="row">
 									<div class="col-md-6">
 										<label>Nombre:</label>
