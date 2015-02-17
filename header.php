@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link rel="stylesheet" type="text/css" href="css/sticky.css">
-	<link rel="shortcut icon" href="img/uc.ico" /> 
+	<link rel="shortcut icon" href="img/favicon.ico" /> 
 </head>
 <body id="backgr">
 		<div class="container-fluid">
@@ -15,7 +15,7 @@
 				<div class="col-md-12 naveg">
 					<div class="container">
 						<div class="col-md-6 name" style="text-align:center;"><h1>Samuel UC</h1><h4>Programador Web/ Integrador</h4></div>
-						<div class="col-md-6" style="padding-top:3.6%;">
+						<div class="col-md-6 btonsnav">
 								<div class="navbar-header">
 							      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 							        <span class="icon-bar"></span>
@@ -36,6 +36,5 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>
+		
 		<!---END HEADER-->

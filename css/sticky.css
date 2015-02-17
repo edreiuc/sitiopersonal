@@ -1,5 +1,5 @@
 #footer {
-   position:fixed;
+   /* position:fixed; */
    left:0px;
    bottom:0px;
    height:11.5%;
@@ -15,12 +15,12 @@
 .space{
 	padding-top: 2.3%;
 }
-
+/* 
 .jumbotron h2{
 	font-size: 26px;
 	text-align: center;
 }
-
+ */
 .jumbotron{
 	padding: 16px;
 }

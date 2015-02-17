@@ -1,24 +1,39 @@
 <?php
-require '../PHPMailer/PHPMailerAutoload.php';
-
-$mail=new PHPMailer;
-
-$to="ucangulosamuel@gmail.com";
-
+ini_set('display_errors', 'On');
+error_reporting(E_ALL);
+// check for form submission - if it doesn't exist then send back to contact form
+if (!isset($_POST['name']) ) {
+    header('Location: contact.php'); exit;
+}
+	
+// get the posted data
 $nombre = $_POST['name'];
 $email = $_POST['email'];
-$asunto = $_POST['asunto'];
-$mensaje = nl2br($_POST['mensaje']);
+$mensaje = $_POST['mensaje'];
+$object = $_POST['asunto'];
+$to="sam_edreiuc@live.com";
 
-if ($nombre == "" || $email == "" || $asunto == "" || $mensaje == ""):
-	echo '<div class="alert alert-danger">Todos los campos deben ser llenados para enviar el mensaje</div>';
-else:
-	$mail->From=$email;
-	$mail->addAddress($to);
-	$mail->Subject=$asunto;
-	$mail->isHtml(true);
-	$mail->Body=$nombre.' le ha contactado desde su web con el siguiente mensaje: <br><p>'.$mensaje.'</p>';
-	$mail->CharSet = 'UTF-8';
-	$mail->send();
-endif;
+// write the email content
+$email_content = "Se ha enviando el siguiente mensaje desde tu sitio web". "\r\n";
+$email_content .= "mensaje:". "\r\n". "\r\n". $mensaje;
+
+require_once '../swiftmailer/lib/swift_required.php';
+
+$transport = Swift_SmtpTransport::newInstance('mx1.hostinger.mx', 2525)
+
+      ->setUsername('sam_edreiuc@edreiuc.esy.es')
+      ->setPassword('Internet19');
+
+
+$mailer = Swift_Mailer::newInstance($transport);
+
+$message = Swift_Message::newInstance('SITIO-EDREIUC '.$object)
+  ->setFrom(array($email => $nombre))
+  ->setTo(array($to,'sam_edreiuc@edreiuc.esy.es'))
+  ->setBody($email_content);
+
+$result = $mailer->send($message);
+
+    header('Location: ../contact.php?envio=ok'); exit;
+
 ?>
