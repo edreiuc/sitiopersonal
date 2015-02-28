@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>SITE Edrei UC</title>
-	<link href='http://fonts.googleapis.com/css?family=Bitter%7CCabin%7CPlay%7CHammersmith+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Roboto%7CPlay%7CRoboto+Condensed%7CRoboto+Slab' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link rel="stylesheet" type="text/css" href="css/sticky.css">

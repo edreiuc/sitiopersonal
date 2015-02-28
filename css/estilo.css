@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 #backgr{
 	background: white url(../img/congruent_pentagon.png);
     background-repeat: repeat;
@@ -37,15 +41,6 @@
 	font-family: 'Play', sans-serif;
 	font-weight: bold;
 	font-size: 50px;
-}
-
-.name h4{
-	font-family: 'Cabin', sans-serif;
-	font-style: italic;
-}
-
-.titulos h2, h5{
-    font-family: 'Pacifico', cursive;    
 }
 
 .center-block {
@@ -162,7 +157,7 @@
     .navbar-toggle .icon-bar {background-color: #383838;}
     .topdiv{padding-bottom: 5%; padding-top: 64.4%;}
     .topimg{padding-bottom: 5%; padding-top: 5%}
-    .jumbotron h2 {font-size: 14px;}
+    .jumbotron h2 {font-size: 35px;}
 
     .itemf {font-size: 41px;}
     .glyphicon {line-height: 0;position: static;}
@@ -179,6 +174,7 @@
     .circle-text {width:70%;}
     .topimg{padding-top: 1%;}
     .topjumb{padding-top: 1%;}
+
 }
 
 @media (min-width: 800px) {
@@ -249,4 +245,9 @@
 .textfoot{
     margin: 0 40px 10px;
     color: #fff;
+}
+
+.well{
+    background-color: #FFFFFF;
+    font-family: 'Roboto Condensed', sans-serif;
 }

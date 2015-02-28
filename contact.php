@@ -5,33 +5,20 @@ include 'header.php';
 <div class="col-md-12 topdiv">
 		<div class="container wit">
 			<div class="row padbuttom">
-				<div class="col-md-12">
-					<div class="page-header">
-					  <h1 class="fonth1">Biografia <small>Algo sobre mi</small></h1>
+				<div class="col-md-6">
+					<div class="page-header titulos">
+					  <h2>Biografia <small>Algo sobre mi</small></h2>
+			
+					  	<p>Nací un 25 de diciembre de 1991, actualmente tengo 23 años, considero de mi todas mias capacidades más que mis defectos o debilidades, entre mis mejores cualidades soy un joven responsable, trabajador, con ganas de aprender y mejorar, paciente, honesto y humilde.</p>
+					  	
 					</div>
 				</div>
 				<div class="col-md-6" style="padding-top: 2%">
-					<div class="jumbotron">
-						<h2>Contactame</h2>
-							<form method="POST" name="fcontacto" id="fcontacto" action="clases/send.php">
-
-								<div class="row">
-									<div class="col-md-6">
-										<label>Nombre:</label>
-										<input type="text" name="name" id="name" class="form-control" required>
-									</div>
-									<div class="col-md-6">
-										<label>E-mail:</label>
-										<input type="email" name="email" id="email" class="form-control" required>
-									</div>
-								</div>
-								<label>Asunto:</label>
-								<input type="text" name="asunto" id="asunto" class="form-control" required>
-								<label>Mensaje:</label>
-								<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-control" placeholder=" sorry, disabled form, details to do" required></textarea>
-								<input type="submit" class="btn btn-info" value="Enviar">
-								<div id="respuesta" style="display: none;"></div>
-							</form>
+					<div class="well">
+						<h3>Contactame</h3>
+						<hr>
+						<h4>Telefono: <small>999-255-47-58</small></h4>
+						<h4>E-mail: <small>sam_edreiuc@live.com.mx, ucangulosamuel@gmail.com.mx</small></h4>
 					</div>
 				</div>
 				<div class="col-md-6" style="padding-top: 2%; padding-bottom: 8%;">

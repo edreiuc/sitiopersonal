@@ -11,7 +11,7 @@
 						</ul>
 					</div>
 					<div class="col-md-12 redes textfoot">
-							<p>&copy; Samuel Edrei Uc Angulo <a href="http://www.hostinger.mx/" target="_blank"><img src="http://www.hostinger.mx/banners/mx/hostinger-80x15-powered-1.gif" alt="Hosting Web" width="80" height="15" border="0" /></a></p>
+							<p>&copy; Samuel Edrei Uc Angulo <a href="http://www.hostinger.mx/" target="_blank"><img src="http://www.hostinger.mx/banners/mx/hostinger-80x15-powered-1.gif" alt="Hosting Web" width="80" height="15" /></a> <img src="img/W3C_HTML5_certified.png" alt="html5valid" style="width:70px;"></p>
 					</div>
 				</div>
 			</div>

@@ -13,7 +13,7 @@ include 'header.php';
 						  <h2>Algunas referencias profesionales</h2>
 							<div class="row" style="padding-bottom:3%;">
 									<div class="col-md-4 col-xs-4">
-										<a href="#">
+										<a href="aportaciones.php">
 											<div class="circle-text">
 												<div>
 													<p><i class="glyphicon glyphicon-link itemf"></i>
@@ -64,7 +64,7 @@ include 'header.php';
 							        	<hr>
 							        	<h4>FORMACION ACADEMICA</h4>
 							        	<div class="center-block">
-							        		<h5><strong>Intitut Universitaire Technologique de Troyes, Troyes, 10000, Francia</strong></h5>
+							        		<h5><strong>Institut Universitaire Technologique de Troyes, Troyes, 10000, Francia</strong></h5>
 							        		<p>Métiers de l'internet et du multimedia</p>
 							        		<h5><strong>Universidad Tecnológica Metropolitana, Santa Rosa, 97000, Merida, Yucatán</strong></h5>
 							        		<p>Multimedia y comercio electrónico</p>
@@ -74,13 +74,12 @@ include 'header.php';
 							        	<hr>
 							        	<h4>CONOCIMIENTOS INFORMATICOS</h4>
 							        	<p>*Paqueteria Office *Photoshop *Illustrator *Premiere *After Effects *3D MAX *SublimeText</p>
-							        	<p>*PHP *JavaScript *C# *Jquery *Bootstrap *AJAX *Css3 *HTML5</p>
-							        	<p>*Laravel *Symfony2 *Prestashop *Joomla</p> 
+							        	<p>*PHP *JavaScript *Jquery *Bootstrap *AJAX *Css3 *HTML5</p>
 							        	<hr>
 							        	<h4>IDIOMAS</h4>
 							        	<ol>
 							        		<li>Frances Nivel B1.3</li>
-							        		<li>Ingles Basico</li>
+							        		<li>Ingles A2</li>
 							        	</ol>
 							        </div>
 							      </div>
